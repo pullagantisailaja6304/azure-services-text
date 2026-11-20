@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv('./.env', override=True)
 
 # Set up the speech config using resource endpoint
-endpoint_url = os.environ.get("AZURE_SPEECH_ENDPOINT", "https://project292912345-resource.cognitiveservices.azure.com/")
+endpoint_url = os.environ.get("AZURE_SPEECH_ENDPOINT", "https://project293497y3r2345-resource.cognitiveservices.azure.com/")
 speech_key = os.environ.get("AZURE_SPEECH_KEY", "3M3CF4vlGYJGlFs7p84RT3Ii8JdQNyaMNWMkZWYVUeWv4d16KyOdJQQJ99CKACF24PCXJ3w3AAAAACOGg2rf")
 
 speech_config = speechsdk.SpeechConfig(
